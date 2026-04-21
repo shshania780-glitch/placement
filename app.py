@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 
 # Load the trained model
-model = pickle.load(open("models/placement_model.pkl", "rb"))
+model = pickle.load(open("placement_model.pkl", "rb"))
 
 # Streamlit app
 st.set_page_config(page_title="Placement Predictor", layout="wide")
